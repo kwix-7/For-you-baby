@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <filter id="softHandDrawn">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="12" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.2"/>
+    </filter>
+  </defs>
+
+  <path d="M250 38 C264 79 276 119 291 151 C329 151 372 150 417 153 C386 181 352 205 325 226 C337 267 351 308 360 352 C321 333 286 311 250 289 C214 311 179 333 140 352 C149 308 163 267 175 226 C148 205 114 181 83 153 C128 150 171 151 209 151 C224 119 236 79 250 38 Z" fill="#FFE066" stroke="#F3CD45" stroke-width="7" stroke-linejoin="round" filter="url(#softHandDrawn)"/>
+
+  <path d="M224 67 C215 92 207 115 201 132" fill="none" stroke="#FFFDF5" stroke-width="8" stroke-linecap="round"/>
+  <path d="M103 156 C126 153 148 153 165 155" fill="none" stroke="#FFFDF5" stroke-width="7" stroke-linecap="round"/>
+  <path d="M335 156 C354 154 375 154 396 157" fill="none" stroke="#FFFDF5" stroke-width="7" stroke-linecap="round"/>
+  <path d="M151 321 C148 333 147 340 148 346" fill="none" stroke="#FFFDF5" stroke-width="8" stroke-linecap="round"/>
+  <path d="M349 321 C352 333 353 340 352 346" fill="none" stroke="#FFFDF5" stroke-width="8" stroke-linecap="round"/>
+
+  <text x="250" y="184" text-anchor="middle" font-family="Comic Sans MS, Trebuchet MS, sans-serif" font-size="48" font-weight="700" fill="#343844">+1</text>
+  <text x="250" y="241" text-anchor="middle" font-family="Comic Sans MS, Trebuchet MS, sans-serif" font-size="38" font-weight="700" fill="#343844">good girl</text>
+  <text x="250" y="289" text-anchor="middle" font-family="Comic Sans MS, Trebuchet MS, sans-serif" font-size="38" font-weight="700" fill="#343844">point</text>
+</svg>
